@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+  />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <script src="dist/main.js"></script>
+</head>
+<body>
+<h1>Partner</h1>
+<!--<psdk-text></psdk-text>-->
+<psdk-text name='zip'></psdk-text>
+<!--<psdk-text name='zip'></psdk-text>-->
+<!--<psdk-text name='email'></psdk-text>-->
+<!--<psdk-payment-methods country="RU"></psdk-payment-methods>-->
+<psdk-payment-form-messages></psdk-payment-form-messages>
+<psdk-apple-pay></psdk-apple-pay>
+<psdk-legal></psdk-legal>
+<!--<psdk-payment-methods></psdk-payment-methods>-->
+<!--<div>-->
+<!--  <psdk-card-number name='card_number'</psdk-card-number>-->
+<!--</div>-->
+<!--<psdk-payment-form></psdk-payment-form>-->
+<!--<psdk-finance-details></psdk-finance-details>-->
+<!--<psdk-submit-button text="buy"></psdk-submit-button>-->
+<!--<psdk-phone showflags="true"></psdk-phone>-->
+<!--<hr>-->
+<!--<div>-->
+<!--  <h4>Balance</h4>-->
+<!--  <psdk-user-balance no-balance="no balance"></psdk-user-balance>-->
+<!--</div>-->
+<!--<hr>-->
+<!--<psdk-text-component name='email'></psdk-text-component>-->
+<script type="module">
+  // import { EventName } from './src/core/event-name.enum';
+  // import * as PayStationSdk from './src';
+  init();
+  async function  init() {
+    console.log(PayStationSdk.headlessCheckout)
+    const paymentsSdk = PayStationSdk.headlessCheckout;
+    await paymentsSdk.init({
+      isWebView: false,
+      sandbox: false,
+      country: 'RU'
+    });
+
+    setTimeout(() => {
+       paymentsSdk.setToken('f8q1o1xPYeIjt02sByOHx7FR5VnxgAaA_lc_en');
+       // paymentsSdk.setToken('f8q1zY9MC9QaPfGGLd6dnaJ6EqMWsWRs_lc_en'); // sandbox
+    }, 2000)
+
+    setTimeout(() => {
+      // paymentsSdk.setToken('f8q1zY9MC9QaPfGGLd6dnaJ6EqMWsWRs_lc_en');
+      const form =  paymentsSdk.form.init({
+        // paymentMethodId: 1738,
+        paymentMethodId: 3175,
+        returnUrl: 'https://headless-checkout-app.web.app/return?token=oeptqWDZXW9nU0uKdvQp30vlXW8qaugW_lc_en',
+      });
+    }, 5000)
+    // const form = await paymentsSdk.form.init({
+    //   // paymentMethodId: 1738,
+    //   paymentMethodId: 3175,
+    //   returnUrl: 'https://headless-checkout-app.web.app/return?token=oeptqWDZXW9nU0uKdvQp30vlXW8qaugW_lc_en',
+    // });
+    //
+    //
+    setTimeout(() => {
+      const naCallback = (na) => {
+        console.log('nextAction', na);
+        window.addEventListener('message', (message) => {
+          console.log('window.addEventListener', message);
+        })
+        if (na.type === 'open_new_tab') {
+          window.open(na.data.url);
+        }
+      };
+      paymentsSdk.form.onNextAction(naCallback);
+    }, 7000)
+
+
+    // then(() => {
+    //   console.log('setToken')
+    //   return paymentsSdk.setToken('f8q1zY9MC9QaPfGGLd6dnaJ6EqMWsWRs_lc_en');
+    // })
+
+    //   .then(() => {
+    //   return paymentsSdk.form.init({
+    //     // paymentMethodId: 1738,
+    //     paymentMethodId: 3175,
+    //     returnUrl: 'https://headless-checkout-app.web.app/return?token=oeptqWDZXW9nU0uKdvQp30vlXW8qaugW_lc_en',
+    //   });
+    // })
+
+    //   .then((form) => {
+    //   console.log('test', paymentsSdk)
+    //
+    //   console.log('form', form);
+    //   const naCallback = (na) => console.log('nextAction', na);
+    //   paymentsSdk.form.onNextAction(naCallback);
+    // })
+  }
+  // await paymentsSdk.setToken('8sogaw0qcZbijxvfq1A8Ir6YMKykd5aJ_lc_en');
+  // await paymentsSdk.setToken('8sogJarHSKGCrbgCbcy24Gk2FPv86ODg_lc_en');
+  // await paymentsSdk.setToken('8sogPLisB328Snf9M9aChSwkZn4IzOzf_lc_en'); // sandbox
+  // await paymentsSdk.setToken('q4plmluaBWwtfzReIo5k9vYHDIEwPKRS_bg_201308_tb_FFFAD6');
+</script>
+</body>
+</html>
