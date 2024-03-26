@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T13:24:21.155Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="dOaajA1fgf_yiE-AN3x-" version="24.0.7" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-26T13:27:45.623Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="S23zQWa8c-n7O07__sYV" version="24.0.7" type="github">
   <diagram name="Page-1" id="gaQloLDde2CqD1FpQ-cP">
     <mxGraphModel dx="1242" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -410,8 +410,25 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AHhUWQ-ICXf35uNmks8w-40" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;Логическая архитектура&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Отображаются системные события для одного сценария некоторого прецедента&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="20" y="2510" width="470" height="20" as="geometry" />
+        <mxCell id="AHhUWQ-ICXf35uNmks8w-40" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;Логическая архитектура&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-weight: normal; font-size: 14px;&quot;&gt;Описывает систему в терминах ее принципиальной организации в виде уровней, пакетов (или пространств имен), программных классов и подсистем&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
+          <mxGeometry x="20" y="2510" width="710" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="gwRm_R9MWp8-JNDxpYMR-3" value="Интерфейс пользователя" style="swimlane;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="2600" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gwRm_R9MWp8-JNDxpYMR-4" value="Уровень приложения или обьектов предметной области" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="370" y="2600" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="gwRm_R9MWp8-JNDxpYMR-5" value="Уровень технических служб" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="630" y="2600" width="200" height="200" as="geometry">
+            <mxRectangle x="630" y="2600" width="200" height="50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gwRm_R9MWp8-JNDxpYMR-6" value="Обьекты и о" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="675" y="2698" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gwRm_R9MWp8-JNDxpYMR-7" value="Уровень приложения или обьектов предметной области" style="swimlane;whiteSpace=wrap;html=1;startSize=50;" vertex="1" parent="1">
+          <mxGeometry x="730" y="2710" width="200" height="200" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
