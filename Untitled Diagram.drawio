@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-03-26T15:08:49.913Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="akK4LSBHT-fVELCy6hrs" version="24.1.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-27T14:00:21.247Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="h0VZrIa_V9XMsfYABuVw" version="24.2.0" type="github">
   <diagram name="Page-1" id="gaQloLDde2CqD1FpQ-cP">
-    <mxGraphModel dx="1380" dy="778" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1774" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -534,79 +534,79 @@
         <mxCell id="gwRm_R9MWp8-JNDxpYMR-39" value="&lt;div&gt;&lt;font style=&quot;&quot;&gt;GRASP: проектирование обьектов на основе распределения обязанностей&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Диаграммы последовательностей&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="70" y="3750" width="530" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-1" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;В двух словах&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Загружаются id 500 новостей (1 запрос).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Для каждого id загружается новость (100 запросов?)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Нажимаем на новость, переходим на страницу новости.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Отображаем счетчик комментов.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Загружаем корневые комменты.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Если нажать на коммент, то загружается вложенные&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Если нажать на кнопку обновления новостей, то загружаются новости (id?)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Если нажать на кнопку обновления комментов, то загружаются комменты (как быть, если ты находишься внутри вложенного?)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Автоматически обновляются комменты&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Автоматически обновляются новости&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Где хранятся данные?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Кто дергает http запросы?&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" vertex="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-1" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;В двух словах&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Загружаются id 500 новостей (1 запрос).&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Для каждого id загружается новость (100 запросов?)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Нажимаем на новость, переходим на страницу новости.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Отображаем счетчик комментов.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Загружаем корневые комменты.&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Если нажать на коммент, то загружается вложенные&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Если нажать на кнопку обновления новостей, то загружаются новости (id?)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Если нажать на кнопку обновления комментов, то загружаются комменты (как быть, если ты находишься внутри вложенного?)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Автоматически обновляются комменты&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Автоматически обновляются новости&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Где хранятся данные?&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px; font-weight: 400;&quot;&gt;Кто дергает http запросы?&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="960" y="1310" width="470" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-2" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1078.82" y="3630" as="sourcePoint" />
             <mxPoint x="1078.82" y="3220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-3" value="??" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-3" value="??" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1020" y="3170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-4" value="initialize()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-4" value="initialize()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="1" vertex="1" connectable="0">
           <mxGeometry x="1020.2222222222222" y="3350" as="geometry" />
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-5" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-5" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1082.5" y="3400" as="sourcePoint" />
             <mxPoint x="1270" y="3400" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-6" value="loadNewsIds()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AAMm8ghPfRTAxep8QQ8g-5">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-6" value="loadNewsIds()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AAMm8ghPfRTAxep8QQ8g-5" vertex="1" connectable="0">
           <mxGeometry x="-0.3916" relative="1" as="geometry">
             <mxPoint x="18" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-7" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1268.82" y="3630" as="sourcePoint" />
             <mxPoint x="1268.82" y="3220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-8" value="??" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-8" value="??" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1210" y="3170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-9" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-9" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="967.72" y="3360" as="sourcePoint" />
             <mxPoint x="1072.72" y="3360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-13" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-13" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1270" y="3440" as="sourcePoint" />
             <mxPoint x="1080" y="3440" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-14" value="NewsId: number[]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AAMm8ghPfRTAxep8QQ8g-13">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-14" value="NewsId: number[]" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AAMm8ghPfRTAxep8QQ8g-13" vertex="1" connectable="0">
           <mxGeometry x="-0.3916" relative="1" as="geometry">
             <mxPoint x="-36" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-15" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-15" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="3480" as="sourcePoint" />
             <mxPoint x="1440" y="3480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-16" value="setNewsIds()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AAMm8ghPfRTAxep8QQ8g-15">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-16" value="setNewsIds()" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AAMm8ghPfRTAxep8QQ8g-15" vertex="1" connectable="0">
           <mxGeometry x="-0.3916" relative="1" as="geometry">
             <mxPoint x="18" y="-10" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-17" value="" style="endArrow=none;dashed=1;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1438.82" y="3630" as="sourcePoint" />
             <mxPoint x="1438.82" y="3220" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-18" value="??" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-18" value="??" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="1380" y="3170" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-19" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="3520" as="sourcePoint" />
             <mxPoint x="1080" y="3560" as="targetPoint" />
@@ -616,18 +616,18 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-25" value="Update timer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="AAMm8ghPfRTAxep8QQ8g-19">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-25" value="Update timer" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="AAMm8ghPfRTAxep8QQ8g-19" vertex="1" connectable="0">
           <mxGeometry x="-0.0222" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-23" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=none;strokeWidth=3;" vertex="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-23" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diag;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;fillColor=none;strokeWidth=3;" parent="1" vertex="1">
           <mxGeometry x="1055" y="3370" width="455" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-24" value="&lt;b&gt;Load IDS&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-24" value="&lt;b&gt;Load IDS&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="1450" y="3370" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="AAMm8ghPfRTAxep8QQ8g-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" edge="1" parent="1" target="AAMm8ghPfRTAxep8QQ8g-23">
+        <mxCell id="AAMm8ghPfRTAxep8QQ8g-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;strokeWidth=3;" parent="1" target="AAMm8ghPfRTAxep8QQ8g-23" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1080" y="3560" as="sourcePoint" />
             <mxPoint x="1040" y="3400" as="targetPoint" />
@@ -636,6 +636,81 @@
               <mxPoint x="1030" y="3435" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNA6ZdQM9TYVWwJjcCSu-1" target="qNA6ZdQM9TYVWwJjcCSu-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-1" value="Creator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="3830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNA6ZdQM9TYVWwJjcCSu-2" target="qNA6ZdQM9TYVWwJjcCSu-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-2" value="Information Expert" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="3930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNA6ZdQM9TYVWwJjcCSu-3" target="qNA6ZdQM9TYVWwJjcCSu-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-3" value="Low Coupling" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="4040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNA6ZdQM9TYVWwJjcCSu-4" target="qNA6ZdQM9TYVWwJjcCSu-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-4" value="Controller" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="4130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNA6ZdQM9TYVWwJjcCSu-5" target="qNA6ZdQM9TYVWwJjcCSu-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-5" value="High Cohesion" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="4250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-6" value="Какой класс обладает информацией об обьекте?" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3930" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-8" value="Какой класс отвечает за создание обьекта?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="3830" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNA6ZdQM9TYVWwJjcCSu-10" target="qNA6ZdQM9TYVWwJjcCSu-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-10" value="Низкая связанность" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="4040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-12" value="Любая информация или зависимость" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="4040" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNA6ZdQM9TYVWwJjcCSu-14" target="qNA6ZdQM9TYVWwJjcCSu-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-14" value="Какой обьект за пределами интерфейса должен получать сообщения от уровня UI" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="4115" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-17" value="Присвоить эту обязанность классу, удовлетворяющему условию:&lt;div&gt;- Класс представляет всю систему в целом&lt;/div&gt;&lt;div&gt;- Класс представляет сценарий некоторого прецедента&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="527.5" y="4115" width="302.5" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qNA6ZdQM9TYVWwJjcCSu-19" target="qNA6ZdQM9TYVWwJjcCSu-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-19" value="Высокое зацепление" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="250" y="4250" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-21" value="Как обеспечить сфокусированность обязанностей обьектов, их управляемость и ясность, а заодно выполнение Low Coupling" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="4250" width="370" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-23" value="Polymorphism" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="4350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-24" value="Pure Fabrication" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="4470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-25" value="Indirection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="4580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qNA6ZdQM9TYVWwJjcCSu-26" value="Protected Variations" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="4680" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
